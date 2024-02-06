@@ -9,6 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        black: "#27272A",
+        greydark: "#696969",
+        greysilver: "#E5E7EB",
+        white: "#FCFBFA",
+        lavender: "#7E3AF2",
+        red: "#E02424",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
