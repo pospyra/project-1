@@ -41,7 +41,6 @@ h3 {
 }
 
 .subtitle-2 {
-    color: #696969;
     font-family: var(--font-family-montserrat);
     font-size: var(--subtitle2-font-size);
     font-weight: var(--subtitle2-font-weight);
@@ -54,7 +53,6 @@ h3 {
 }
 
 .body-text-2 {
-    color: #696969;
     font-family: var(--font-family-montserrat);
     font-size: var(--body-font-size);
     font-weight: var(--body-font-weight);
