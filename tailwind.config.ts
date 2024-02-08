@@ -24,6 +24,8 @@ const config: Config = {
       },
       backgroundImage: {
         gradient: "url('../assets/images/background.png')",
+        "eclipsegradient": "url('../assets/images/ellipse-background.png')",
+
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
