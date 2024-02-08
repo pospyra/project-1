@@ -4,16 +4,16 @@ import styles from './MainBlock.module.css';
 
 export const MainBlock = () => {
   return (
-    <div className="relative px-20">
-      <div className="pt-40" style={{ height: '770px' }}>
-        <div className="max-w-md">
+    <div className="relative flex pl-20">
+      <div className="pt-40">
+        <div className=" ">
           <div className="mb-24 gap-1">
-            <h1>Hey, I’m Nick</h1>
+            <h1 className='w-[420px]'>Hey, I’m Nick</h1>
             <p className="body-text text-greydark">Frontend developer</p>
           </div>
           <div className="grid gap-6 mb-16">
             <div className="h-0.5 bg-lavender w-6"></div>
-            <p className="body-text text-greydark">
+            <p className="body-text text-greydark max-w-[445px]">
               Help you to create high-quality digital products that your clients will love and let your business thrive
             </p>
           </div>
@@ -26,10 +26,13 @@ export const MainBlock = () => {
         </div>
       </div>
 
-      <div className={`${styles.background} bg-gradient`}>
-        <div className={`${styles.avatar}`}>
+      <div className='relative w-[1070px] h-[864px]'>
+        <div className={`${styles.background} bg-gradient `}>
+          <div className={`${styles.avatar}`}>
+          </div>
         </div>
       </div>
+
 
     </div>
   );

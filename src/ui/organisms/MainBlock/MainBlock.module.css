@@ -1,12 +1,13 @@
 .background {
   @apply absolute inset-0 bg-cover px-0;
-  top: 10px;
-  left: 311px;
+  top: 62px;
+  left: -31px;
+  max-height: 700px;
 }
 
 .avatar {
   @apply absolute inset-0 px-0;
-  top: 83px;
-  left: 0; 
+  top: 17px;
+  left: -69px; 
   background-image: url('../../../assets/images/photo.png');
 }
