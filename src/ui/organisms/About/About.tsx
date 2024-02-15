@@ -17,7 +17,7 @@ interface AboutProps {
 export const About = ({ className }: AboutProps) => {
   return (
     <div className=" relative px-20">
-      <div className=" pt-[100px] " >
+      <div className=" py-[100px] " >
         <div className=' grid gap-[80px]'>
           <h2>About me</h2>
 
@@ -90,17 +90,19 @@ export const About = ({ className }: AboutProps) => {
               <h3>Education & Experience</h3>
               <div className='grid gap-6'>
                 <ExperienceElement
+                  className='border-b '
                   date="2008 - Present"
                   position="Middle Frontend developer"
                   company="Ozon"
                 />
 
                 <ExperienceElement
+                  className='border-b '
                   date="2006 - 2007"
                   position="Frontend development courses"
                   company="Stepik"
                 />
-                
+
                 <ExperienceElement
                   date="2000 - 2005"
                   position="Frontend developer"
