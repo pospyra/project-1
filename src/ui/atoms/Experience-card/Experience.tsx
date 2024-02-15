@@ -4,11 +4,12 @@ interface ExperienceProps {
   date: string;
   position?: string;
   company?: string;
+  className?: string;
 }
 
-export const ExperienceElement = ({ date, position, company }: ExperienceProps) => {
+export const ExperienceElement = ({ date, position, company, className }: ExperienceProps) => {
   return (
-    <div className="flex gap-4 border-b">
+    <div className={`{flex gap-4 ${className}}`}>
         <p className="body-text w-[152px]">{date}</p>
 
       <div className="grid gap-[8px] mb-8">
