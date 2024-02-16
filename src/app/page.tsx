@@ -5,12 +5,14 @@ import { MainBlock } from "@/ui/organisms/MainBlock";
 
 export default function Home() {
   return (
-    <main className="bg-white text-gray-800 max-w-screen-xl mx-auto m-0">
+    <div className="m-0 mx-auto ">
+    <main className="bg-white max-w-screen-xl m-0 mx-auto ">
       <Header />
       <MainBlock />
-      <About/>
-      <GetInTouch/>
-      <Footer />
+       {/* <About/> */}
+    {/*  <GetInTouch/>
+      <Footer /> */}
     </main>
+    </div>
   );
 }

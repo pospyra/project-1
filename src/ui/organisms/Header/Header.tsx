@@ -6,7 +6,7 @@ import styles from './Header.module.css';
 export const Header = () => {
   return (
     <div >
-      <header className="flex justify-between h-16 px-85px ">
+      <header className="flex justify-between h-16 px-3.5 lg:px-85px md:px-[39px] sm:px-3.5">
         <div className="flex items-center">
           <Image src={Logo} alt="Logo" width={35} />
         </div>

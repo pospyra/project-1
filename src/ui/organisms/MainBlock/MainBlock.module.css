@@ -3,11 +3,52 @@
   top: 62px;
   left: -31px;
   max-height: 700px;
+  overflow: hidden;
 }
 
 .avatar {
   @apply absolute inset-0 px-0;
   top: 17px;
-  left: -69px; 
+  left: -69px;
   background-image: url('../../../assets/images/photo.png');
+}
+
+@media (max-width: 1000px) {
+  .background {
+    top: 55px;
+    left: -100px;
+    max-height: 400px;
+  }
+
+  .avatar {
+    top: 9px;
+    left: -81px;
+    bottom: -35px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 500px) {
+  .block-wrap {
+    display: block;
+  }
+
+  .background-wrap {
+    /* position: absolute; */
+    top: -134px;
+    left: 0;
+  }
+
+  .background {
+    position: absolute;
+    top: 51px;
+    left: 40px;
+  }
+
+  .avatar {
+    top: 9px;
+    left: -81px;
+    bottom: -35px;
+    background-size: cover;
+  }
 }
