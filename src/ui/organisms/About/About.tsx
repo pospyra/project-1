@@ -16,7 +16,7 @@ interface AboutProps {
 
 export const About = ({ className }: AboutProps) => {
   return (
-    <div className="relative lg:px-20 md:px-[39px] lg:mb-[100px] px-[15px] md:mb-[80px] ">
+    <div className="relative lg:px-20 md:px-[39px] lg:mb-[100px] sm:px-[39px] px-[15px] md:mb-[80px]">
       <div className="" >
         <div className=' grid gap-[80px]'>
           <h2 className='text-xl sm:text-4xl'>About me</h2>
@@ -34,7 +34,7 @@ export const About = ({ className }: AboutProps) => {
             <div >
               <div className='grid gap-4 max-w-[290px] mb-16 lg:max-w-[537px] md:max-w-[380px]'>
                 <div className="h-0.5 bg-lavender w-6"></div>
-                <p className="body-text text-xl text-greydark">
+                <p className="body-text text-sm sm:text-xl text-greydark">
                   <span className="subtitle text-black">Nick Richardson</span> - specialist in Frontend development. Clear code is my passion. <br /> Solving issues through negotiations
                 </p>
               </div>

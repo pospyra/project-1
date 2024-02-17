@@ -6,13 +6,13 @@ import { MainBlock } from "@/ui/organisms/MainBlock";
 export default function Home() {
   return (
     <div className="m-0 mx-auto ">
-    <main className="bg-white max-w-screen-xl m-0 mx-auto ">
-      <Header />
-      <MainBlock />
-       <About/>
-    {/*  <GetInTouch/>
-      <Footer /> */}
-    </main>
+      <main className="bg-white max-w-screen-xl m-0 mx-auto ">
+        <Header />
+        <MainBlock />
+        <About />
+        <GetInTouch />
+        <Footer />
+      </main>
     </div>
   );
 }

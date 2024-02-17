@@ -1,11 +1,6 @@
-.container {
-  @apply relative w-[412px] h-[412px];
-}
 
-.outerAvatar {
-  @apply w-full h-full;
-}
-
-.innerAvatar {
-  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-[364px] h-[364px];
+@media (max-width: 425px) {
+  .form-wrap{
+    max-width: 300px;
+  }
 }
