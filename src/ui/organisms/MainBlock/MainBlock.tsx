@@ -6,7 +6,7 @@ import '../../atoms/Typography/typography.css';
 
 export const MainBlock = () => {
   return (
-  <div className={`${styles['block-wrap']} responsive flex pl-3.5 lg:pl-20 md:pl-10 sm:pl-3.5`}>
+    <div className={`${styles['block-wrap']} responsive flex pl-3.5 lg:pl-20 md:pl-10 sm:pl-3.5`}>
       <div className=" pt-[27px] lg:pt-40 md:pt-11 sm:pt-[27px]">
         <div className=" md:w-[420px] w-[290px] ">
           <div className="grid gap-1 mb-[38px] lg:mb-[96px] md:mb-[36px] sm:mb-[38px]">
@@ -27,15 +27,12 @@ export const MainBlock = () => {
           </Button>
         </div>
       </div>
-
-      <div className={`${styles['background-wrap']} relative w-full lg:w-[1070px] lg:h-[864px] md:w-[681px] md:h-[551px] h-[345px] w-[537px]`}>
+      <div className={`${styles['background-wrap']} relative w-full lg:w-[1070px] lg:h-[864px] md:w-[681px] md:h-[540px] h-[345px] w-[537px]`}>
         <div className={`${styles.background} bg-gradient `}>
           <div className={`${styles.avatar}`}>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };

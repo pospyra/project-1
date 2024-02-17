@@ -1,3 +1,4 @@
+
 .background {
   @apply absolute inset-0 bg-cover px-0;
   top: 62px;
@@ -31,10 +32,10 @@
 @media (max-width: 500px) {
   .block-wrap {
     display: block;
+    max-height: 586px;
   }
 
   .background-wrap {
-    /* position: absolute; */
     top: -134px;
     left: 0;
   }

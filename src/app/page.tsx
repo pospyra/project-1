@@ -9,7 +9,7 @@ export default function Home() {
     <main className="bg-white max-w-screen-xl m-0 mx-auto ">
       <Header />
       <MainBlock />
-       {/* <About/> */}
+       <About/>
     {/*  <GetInTouch/>
       <Footer /> */}
     </main>

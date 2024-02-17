@@ -16,12 +16,12 @@ interface AboutProps {
 
 export const About = ({ className }: AboutProps) => {
   return (
-    <div className=" relative px-20 mb-[100px]">
+    <div className="relative lg:px-20 md:px-[39px] lg:mb-[100px] px-[15px] md:mb-[80px] ">
       <div className="" >
         <div className=' grid gap-[80px]'>
-          <h2>About me</h2>
+          <h2 className='text-xl sm:text-4xl'>About me</h2>
 
-          <div className="flex w-full justify-between items-center gap-40">
+          <div className="grid sm:flex w-full justify-center sm:justify-between items-center lg:gap-40 gap-[44px]">
             <div className={`${styles.background}`}>
               <div className={`${styles.container}`}>
                 <Image src={backgroundImage} alt="Background Avatar" className={`${styles.outerAvatar} `} />
@@ -31,10 +31,10 @@ export const About = ({ className }: AboutProps) => {
               </div>
             </div>
 
-            <div>
-              <div className='grid gap-4 max-w-xl  mb-16 max-w-[537px]'>
+            <div >
+              <div className='grid gap-4 max-w-[290px] mb-16 lg:max-w-[537px] md:max-w-[380px]'>
                 <div className="h-0.5 bg-lavender w-6"></div>
-                <p className="body-text text-greydark">
+                <p className="body-text text-xl text-greydark">
                   <span className="subtitle text-black">Nick Richardson</span> - specialist in Frontend development. Clear code is my passion. <br /> Solving issues through negotiations
                 </p>
               </div>
@@ -47,9 +47,9 @@ export const About = ({ className }: AboutProps) => {
             </div>
           </div>
 
-          <div className={`${styles.information} flex items-start gap-[217px]`}>
+          <div className={`${styles.information} lg:flex grid gap-[48px] items-start lg:gap-[217px] sm:gap-[80px] `}>
             <div className={`${styles.interests} grid gap-11`}>
-              <h3>Interests</h3>
+              <h3 className='text-xl md:text-2xl'>Interests</h3>
               <div className={`${styles['interests-element']}`}>
                 <InterestsElement
                   image={(
@@ -87,7 +87,7 @@ export const About = ({ className }: AboutProps) => {
               </div>
             </div>
             <div className={`${styles.experience} grid gap-11`}>
-              <h3>Education & Experience</h3>
+              <h3 className='text-xl md:text-2xl'>Education & Experience</h3>
               <div className='grid gap-6'>
                 <ExperienceElement
                   className='border-b '

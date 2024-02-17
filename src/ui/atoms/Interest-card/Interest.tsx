@@ -13,8 +13,8 @@ export const InterestsElement = ({ image, title, description }: InterestProps) =
         {image}
       </div>
       <div className="grid gap-2">
-        <h3 className="subtitle">{title}</h3>
-        <p className="body-text">{description}</p>
+        <h3 className="subtitle text-sm sm:text-xl">{title}</h3>
+        <p className="body-text text-sm sm:text-xl">{description}</p>
       </div>
     </div>
   );
