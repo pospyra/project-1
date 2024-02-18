@@ -1,9 +1,9 @@
-.form-wrap{
+.form-wrap {
   @apply lg:w-[764px] rounded-2xl lg:p-12 md:p-[32px] sm:p-[32px] p-[16px];
 }
 
 @media (max-width: 425px) {
-  .form-wrap{
+  .form-wrap {
     @apply max-w-[300px];
   }
 }

@@ -1,13 +1,18 @@
-import React from 'react';
+import React from 'react'
 
 interface ExperienceProps {
-  date: string;
-  position?: string;
-  company?: string;
-  className?: string;
+  date: string
+  position?: string
+  company?: string
+  className?: string
 }
 
-export const ExperienceElement = ({ date, position, company, className }: ExperienceProps) => {
+export const ExperienceElement = ({
+  date,
+  position,
+  company,
+  className,
+}: ExperienceProps) => {
   return (
     <div className={`flex gap-4 ${className} `}>
       <p className="body-text text-sm sm:text-xl w-[152px]">{date}</p>
@@ -17,5 +22,5 @@ export const ExperienceElement = ({ date, position, company, className }: Experi
         <p className="body-text text-sm sm:text-xl">{company}</p>
       </div>
     </div>
-  );
-};
+  )
+}

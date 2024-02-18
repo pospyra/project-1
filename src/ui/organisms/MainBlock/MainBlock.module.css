@@ -1,11 +1,9 @@
-
 .background {
   @apply absolute inset-0 bg-cover px-0 max-h-[700px];
   top: 62px;
   left: -31px;
   overflow: hidden;
   background-image: url('../../../assets/images/background.png');
-
 }
 
 .avatar {

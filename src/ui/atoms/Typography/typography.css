@@ -1,43 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 :root {
-    --font-family-montserrat: 'Montserrat', sans-serif;
-    --font-weight-bold: 700;
-    --font-weight-semibold: 600;
-    --font-weight-normal: 400;
+  --font-family-montserrat: 'Montserrat', sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-normal: 400;
 }
 
 h1 {
-    font-family: var(--font-family-montserrat);
-    font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-bold);
 }
 
 h2 {
-    font-family: var(--font-family-montserrat);
-    font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-bold);
 }
 
 h3 {
-    font-family: var(--font-family-montserrat);
-    font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-bold);
 }
 
 .subtitle {
-    font-family: var(--font-family-montserrat);
-    font-weight: var(--font-weight-semibold);
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-semibold);
 }
 
 .subtitle-2 {
-    font-family: var(--font-family-montserrat);
-    font-weight: var(--font-weight-semibold);
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-semibold);
 }
 
 .body-text {
-    font-family: var(--font-family-montserrat);
-    font-weight: var(--font-weight-normal);
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-normal);
 }
 
 .body-text-2 {
-    font-family: var(--font-family-montserrat);
-    font-weight: var(--font-weight-normal);
+  font-family: var(--font-family-montserrat);
+  font-weight: var(--font-weight-normal);
 }
