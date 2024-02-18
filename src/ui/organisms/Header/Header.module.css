@@ -1,4 +1,4 @@
 .link {
-    @apply  hover:text-lavender text-greydark
+    @apply  hover:text-lavender text-greydark text-base;
   }
   

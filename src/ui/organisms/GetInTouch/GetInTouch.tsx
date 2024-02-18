@@ -11,10 +11,10 @@ interface AboutProps {
 export const GetInTouch = ({ className }: AboutProps) => {
   return (
     <div className="relative flex h-[708px] justify-center items-center bg-getInTouchBg">
-      <div className={`${styles['form-wrap']} bg-white lg:w-[764px]  rounded-2xl lg:p-12 md:p-[32px] sm:p-[32px] p-[16px] " `}>
+      <div className={`${styles['form-wrap']} bg-white`}>
         <h1 className=' mb-12 text-xl sm:text-4xl'>Let’s discuss your project</h1>
         <div className="form grid gap-9  ">
-          <div className='person-info grid gap-[24px] md:flex justify-between'>
+          <div className='grid sm:flex gap-[24px] justify-between'>
             <Input
               placeholder="Name Surname"
               title='Your full name'

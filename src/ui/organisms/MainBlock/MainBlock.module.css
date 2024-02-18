@@ -1,10 +1,11 @@
 
 .background {
-  @apply absolute inset-0 bg-cover px-0;
+  @apply absolute inset-0 bg-cover px-0 max-h-[700px];
   top: 62px;
   left: -31px;
-  max-height: 700px;
   overflow: hidden;
+  background-image: url('../../../assets/images/background.png');
+
 }
 
 .avatar {
@@ -42,13 +43,14 @@
 
   .background {
     position: absolute;
-    top: 51px;
-    left: 40px;
+    top: 42px;
+    left: -12px;
+    background-image: url('../../../assets/images/background-mobile.png');
   }
 
   .avatar {
-    top: 9px;
-    left: -81px;
+    top: 32px;
+    left: -4px;
     bottom: -35px;
     background-size: cover;
   }

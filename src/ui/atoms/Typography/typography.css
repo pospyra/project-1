@@ -2,56 +2,42 @@
 
 :root {
     --font-family-montserrat: 'Montserrat', sans-serif;
-    --h1-font-size: 60px;
-    --h1-font-weight: 700;
-    --h2-font-size: 32px;
-    --h2-font-weight: 700;
-    --h3-font-size: 24px;
-    --h3-font-weight: 600;
-    --subtitle-font-size: 20px;
-    --subtitle-font-weight: 600;
-    --subtitle2-font-size: 16px;
-    --subtitle2-font-weight: 600;
-    /* --body-font-size: 20px; */
-    --body-font-weight: 400;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-weight-normal: 400;
 }
 
 h1 {
     font-family: var(--font-family-montserrat);
-    font-weight: var(--h1-font-weight);
+    font-weight: var(--font-weight-bold);
 }
 
 h2 {
     font-family: var(--font-family-montserrat);
-    font-weight: var(--h2-font-weight);
+    font-weight: var(--font-weight-bold);
 }
 
 h3 {
     font-family: var(--font-family-montserrat);
-    font-weight: var(--h3-font-weight);
+    font-weight: var(--font-weight-bold);
 }
 
 .subtitle {
     font-family: var(--font-family-montserrat);
-    font-weight: var(--subtitle-font-weight);
+    font-weight: var(--font-weight-semibold);
 }
 
 .subtitle-2 {
     font-family: var(--font-family-montserrat);
-    font-weight: var(--subtitle2-font-weight);
+    font-weight: var(--font-weight-semibold);
 }
 
 .body-text {
     font-family: var(--font-family-montserrat);
-    font-weight: var(--body-font-weight);
+    font-weight: var(--font-weight-normal);
 }
 
 .body-text-2 {
     font-family: var(--font-family-montserrat);
-    font-weight: var(--body-font-weight);
-}
-
-.m-body-text{
-    font-family: var(--font-family-montserrat);
-    font-weight: 400;
+    font-weight: var(--font-weight-normal);
 }
