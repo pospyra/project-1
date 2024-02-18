@@ -1,11 +1,9 @@
-.container {
-  @apply relative w-[412px] h-[412px];
+.form-wrap{
+  @apply lg:w-[764px] rounded-2xl lg:p-12 md:p-[32px] sm:p-[32px] p-[16px];
 }
 
-.outerAvatar {
-  @apply w-full h-full;
-}
-
-.innerAvatar {
-  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full w-[364px] h-[364px];
+@media (max-width: 425px) {
+  .form-wrap{
+    @apply max-w-[300px];
+  }
 }

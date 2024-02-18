@@ -22,11 +22,17 @@ const config: Config = {
       spacing: {
         '85px': '85px',
       },
-      backgroundImage: {
-        gradient: "url('../assets/images/background.png')",
-        "eclipsegradient": "url('../assets/images/ellipse-background.png')",
-        "getInTouchBg": "url('../assets/images/GetInTouchBackground.png')",
+      fontSize: {
+        "sm": ['14px', '21px'],
+        "base": ['16px', '24px'],
+        "xl": ['20px', '30px'],
+        "2xl": ['24px', '36px'],
+        "4xl": ['32px', '48px'],
+        "6xl": ['60px', '90px'],
 
+      },
+      backgroundImage: {
+        "getInTouchBg": "url('../assets/images/GetInTouchBackground.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },

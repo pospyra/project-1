@@ -18,7 +18,7 @@ export const Input = ({ placeholder, icon, className, title, isRequired }: Input
       <div className={`relative flex items-center gap-2.5`}>
         {icon && <div className="absolute inset-y-0 left-0 pl-5 flex items-center focus:fill-lavender">{icon}</div>}
         <input
-          className={`w-fill py-3 px-[54px] border border-solid border-greylight focus:outline-none focus:border-lavender  ${className}`}
+          className={`w-full py-3 px-[54px] border border-solid border-greylight focus:outline-none focus:border-lavender  ${className}`}
           placeholder={placeholder}
         />
       </div>

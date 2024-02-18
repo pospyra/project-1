@@ -2,6 +2,7 @@ import React from 'react';
 import '../../atoms/Typography/typography.css';
 import { Input } from '@/ui/atoms/Input';
 import { Button } from '@/ui';
+import styles from './GetInTouch.module.css';
 
 interface AboutProps {
   className?: string;
@@ -9,15 +10,15 @@ interface AboutProps {
 
 export const GetInTouch = ({ className }: AboutProps) => {
   return (
-    <div className="relative px-20 flex h-[708px] justify-center items-center bg-getInTouchBg">
-      <div className="bg-white w-[764px] h-[567px] rounded-2xl p-12">
-        <h2 className='mb-12'>Let’s discuss your project</h2>
-        <div className="form grid gap-9">
-          <div className='person-info flex justify-between'>
+    <div className="relative flex h-[708px] justify-center items-center bg-getInTouchBg">
+      <div className={`${styles['form-wrap']} bg-white`}>
+        <h1 className=' mb-12 text-xl sm:text-4xl'>Let’s discuss your project</h1>
+        <div className="form grid gap-9  ">
+          <div className='grid sm:flex gap-[24px] justify-between'>
             <Input
               placeholder="Name Surname"
               title='Your full name'
-              className="w-fill rounded-2xl gap-4"
+              className="rounded-2xl gap-4"
               isRequired={true}
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#696969" color="#696969" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -28,7 +29,7 @@ export const GetInTouch = ({ className }: AboutProps) => {
             <Input
               placeholder="Name Surname"
               title='Your email'
-              className="w-fill rounded-2xl gap-4"
+              className="rounded-2xl gap-4"
               isRequired={true}
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#696969" color="white" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
