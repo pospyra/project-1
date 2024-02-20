@@ -41,7 +41,7 @@ export const GetInTouch = ({ className }: AboutProps) => {
               }
             />
             <Input
-              placeholder="Name Surname"
+              placeholder="name@example.com"
               title="Your email"
               className="rounded-2xl gap-4"
               isRequired={true}
